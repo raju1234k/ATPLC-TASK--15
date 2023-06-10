@@ -1,0 +1,31 @@
+<!Doctype html> 
+<html> 
+<head> 
+<title> JS-Task 15 </title> 
+<head> 
+<body> 
+<h2> Sorting </h2>
+<script> 
+const unsortedArray = [32,45,75,64,76,48,23,51];
+const sortedArray = unsortedArray.sort();
+console.log(sortedArray);
+document.write(sortedArray);
+
+
+const arr1 = ["apple", "gauva", "mango", "pineapple"];
+const arr2 = ["grapes", "kiwi", "licchi", "watermelon"];
+const newArr = arr1.concat(arr2);
+console.log(newArr);
+document.write(sortedArray);
+
+
+
+const fruits = ["cherry", "banana", "plum", "orange", "grape"];
+fruits.shift(); 
+console.log(fruits);
+document.write(sortedArray);
+
+
+</script> 
+</body> 
+</html>
